@@ -1,10 +1,8 @@
 package com.interviews;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
@@ -25,7 +23,25 @@ public class Main {
                 {"58", "Software Design"}
         };
 
-        findPairs(studentCoursePairs1);
+        String[][] studentCoursePairs2 = {
+                {"0", "Advanced Mechanics"},
+                {"0", "Art History"},
+                {"1", "Course 1"},
+                {"1", "Course 2"},
+                {"2", "Computer Architecture"},
+                {"3", "Course 1"},
+                {"3", "Course 2"},
+                {"4", "Algorithms"}
+        };
+
+        String[][] studentCoursePairs3 = {
+                {"23", "Software Design"},
+                {"3",  "Advanced Mechanics"},
+                {"2",  "Art History"},
+                {"33", "Another"},
+        };
+
+        findPairs(studentCoursePairs3);
 
     }
 
